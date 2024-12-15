@@ -8,7 +8,7 @@
     --text-color: #141D38;
     --muted-text-color: #757575;
     --accent-color-light: #e8f5e9;
-    
+
 }
 
 * {
@@ -121,20 +121,25 @@ ul {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     border: 1px solid;
-    padding: 0.5rem 1.5rem; /* تحسين الحواف لإعطاء شكل أجمل */
+    padding: 0.5rem 1.5rem;
+    /* تحسين الحواف لإعطاء شكل أجمل */
     font-size: 14px;
     margin: 0;
-    transition: all 0.3s ease; /* انتقالات ناعمة */
+    transition: all 0.3s ease;
+    /* انتقالات ناعمة */
 }
 
 .btn-primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
-    color: white; /* التأكد من أن النص أبيض */
+    color: white;
+    /* التأكد من أن النص أبيض */
     padding: 0.5rem 1.5rem;
     font-size: 14px;
-    border-radius: 25px; /* إضافة زوايا دائرية لتبدو أكثر نعومة */
-    transition: all 0.3s ease; /* انتقالات ناعمة */
+    border-radius: 25px;
+    /* إضافة زوايا دائرية لتبدو أكثر نعومة */
+    transition: all 0.3s ease;
+    /* انتقالات ناعمة */
 }
 
 .btn-secondary {
@@ -144,7 +149,7 @@ ul {
     padding: 0.5rem 1.5rem;
     height: 50px;
     font-size: 14px;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
 }
 
 /* Hover Effects */
@@ -152,62 +157,68 @@ ul {
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
     color: white;
-    transform: scale(1.05); 
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1); 
+    transform: scale(1.05);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
 .btn-outline-primary:hover {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
-    color: white; 
+    color: white;
     transform: scale(1.05);
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
 .btn-secondary:hover {
-    background-color: #fff; 
-    color: var(--secondary-color); 
+    background-color: #fff;
+    color: var(--secondary-color);
     border-color: var(--secondary-color);
-    transform: scale(1.05); 
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1); 
+    transform: scale(1.05);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
 
 /*Top Bar*/
- /* Top Bar Styles */
- .topbar {
-    background-color: var(--primary-color2); /* Using primary color2 for the background */
+/* Top Bar Styles */
+.topbar {
+    background-color: var(--primary-color2);
+    /* Using primary color2 for the background */
     padding: 10px 0;
-    border-bottom: 1px solid #ddd; /* Light border */
-  }
-  .topbar span
-  {
+    border-bottom: 1px solid #ddd;
+    /* Light border */
+}
+
+.topbar span {
     color: #FFFFFF;
-  }
-  .topbar-info {
+}
+
+.topbar-info {
     padding-left: 0;
     list-style-type: none;
-  }
+}
 
-  .topbar-info li {
+.topbar-info li {
     margin: 5px 0;
-  }
+}
 
-  .topbar-info a {
-    color: #fff; /* White text color for better visibility */
+.topbar-info a {
+    color: #fff;
+    /* White text color for better visibility */
     text-decoration: none;
     font-size: 14px;
     display: flex;
     align-items: center;
-  }
+}
 
-  .topbar-info i {
-    margin-right: 8px; /* Space between the icon and the text */
-    color: #fff; /* White icon color to contrast with background */
-  }
+.topbar-info i {
+    margin-right: 8px;
+    /* Space between the icon and the text */
+    color: #fff;
+    /* White icon color to contrast with background */
+}
 
-  /* Social Media Icon Styles */
-  .icon-link {
+/* Social Media Icon Styles */
+.icon-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,31 +234,35 @@ ul {
     -o-border-radius: 50%;
 }
 
-  .icon-link:hover {
-    background: var(--secondary-color); /* Change to secondary color on hover */
+.icon-link:hover {
+    background: var(--secondary-color);
+    /* Change to secondary color on hover */
     color: #FFFFFF;
-  }
+}
 
-  .icon-link-facebook {
-    background: #1877f2; /* Facebook blue */
-    color: #FFFFFF;
-
-  }
-
-  .icon-link-linkedin {
-    background: #0e76a8; /* LinkedIn blue */
+.icon-link-facebook {
+    background: #1877f2;
+    /* Facebook blue */
     color: #FFFFFF;
 
-  }
+}
 
-  .icon-link-whatsapp {
-    background: #25d366; /* WhatsApp green */
+.icon-link-linkedin {
+    background: #0e76a8;
+    /* LinkedIn blue */
     color: #FFFFFF;
 
-  }
+}
+
+.icon-link-whatsapp {
+    background: #25d366;
+    /* WhatsApp green */
+    color: #FFFFFF;
+
+}
 
 
- 
+
 /* Navbar Styling */
 .custom-navbar {
     background-color: var(--background-color2);
@@ -579,67 +594,70 @@ ul {
 
 /* Start Hero */
 
-.hero-section{
+.hero-section {}
 
-}
-.hero-section .btn{
+.hero-section .btn {
     margin: 0;
 }
-.sub-title{
+
+.sub-title {
     font-size: 20px;
-    color:#001FEC;
+    color: #001FEC;
     font-weight: 600;
     line-height: 1.5;
 }
 
-h1.title{
+h1.title {
     font-size: 64px;
     font-weight: bold;
     color: var(--text-color);
     margin-bottom: 20px;
 }
 
-.content-hero{
+.content-hero {
     display: flex;
     flex-flow: column;
     justify-content: center;
 }
 
-.content-hero p{
+.content-hero p {
     font-size: 20px;
     color: var(--muted-text-color);
 
 }
 
-.content-hero .btn{
+.content-hero .btn {
     min-width: 180px;
     font-size: 16px;
 }
 
 
 /*Our Services*/
-.our-services{
+.our-services {
     background-image: url(../img/ourServices-background.png);
     background-repeat: no-repeat;
     padding: 80px 0 140px;
 
 }
+
 .our-services .title {
     font-size: 42px;
     margin-top: 10px;
     margin-bottom: 60px;
     color: #FFFFFF;
 }
-.our-services .title span{
+
+.our-services .title span {
     color: #001FEC;
 
 }
 
-.our-services-bottom{
-margin-top: -120px;
+.our-services-bottom {
+    margin-top: -120px;
+    padding-bottom: 80px;
 }
 
-.our-services-bottom .card{
+.our-services-bottom .card {
     text-align: center;
     padding: 50px 20px 20px;
     box-shadow: 0px 10px 15px 0px rgba(8, 14, 28, 0.06);
@@ -653,7 +671,7 @@ margin-top: -120px;
     height: 100%;
 }
 
-.our-services-bottom .card .icon-card{
+.our-services-bottom .card .icon-card {
     background: var(--primary-color);
     width: 80px;
     height: 80px;
@@ -665,11 +683,11 @@ margin-top: -120px;
     position: absolute;
     left: 50%;
     top: 0;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -677,22 +695,36 @@ margin-top: -120px;
     color: #FFFFFF;
 }
 
-.our-services-bottom .card .title-card{
-font-size: 26px;
-margin-bottom: 20px;
-color: var(--text-color);
+.our-services-bottom .card .title-card {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: var(--text-color);
 
 }
 
-.our-services-bottom .card .description-card{
+.our-services-bottom .card .description-card {
     font-size: 18px;
     color: var(--muted-text-color);
     margin: 0;
 
 }
 
-.mben-5{
+.mben-5 {
     margin-bottom: 80px;
+}
+
+.why-chosse-us {
+    padding: 80px 0;
+    background: #F5F5F5;
+}
+
+.why-chosse-us .title {
+    font-size: 42px;
+    margin: 10px 0 20px;
+}
+
+.why-chosse-us .title span {
+    color: #001FEC;
 }
 
 /* Progress Card Styling */
@@ -700,54 +732,64 @@ color: var(--text-color);
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Circular Progress Bar */
-  .progress-circle {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    background: conic-gradient(
-      #5b63d6 0deg, 
-      #5b63d6 324deg, 
-      #d3d3d3 324deg, 
-      #d3d3d3 360deg
-    );
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .progress-circle .progress-text {
-    position: absolute;
+
+}
+
+
+/* Content Styling */
+.content-prog h4 {
     font-size: 18px;
     font-weight: bold;
-    color: #333;
-  }
-  
-  /* Content Styling */
-  .content-prog h4 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .content-prog p {
+    color: var(--text-color);
+}
+
+.content-prog p {
     font-size: 14px;
-    color: #555;
+    color: var(--muted-text-color);
     margin: 0;
-  }
-  
-  /* Colors */
-  :root {
-    --primary-color: #5b63d6; /* Progress color */
-    --background-gray: #d3d3d3; /* Background track color */
-    --text-color: #333; /* Text color */
-  }
-  
+    line-height: 1.4;
+}
+
+@keyframes growProgressBar {
+
+    0%,
+    33% {
+        --pgPercentage: 0;
+    }
+
+    100% {
+        --pgPercentage: var(--value);
+    }
+}
+
+@property --pgPercentage {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+}
+
+div[role="progressbar"] {
+    --size: 10rem;
+    --bg: #def;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background:
+        radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+        conic-gradient(#001FEC calc(var(--pgPercentage) * 1%), var(--bg) 0);
+    font-size: calc(var(--size) / 5);
+    color: #001FEC;
+}
+
+div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+}
+
+.content-prog {
+    width: 60%;
+}
