@@ -110,18 +110,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="#about">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#contact">Contact Us</a>
             </li>
           </ul>
+          
 
           <!-- Search Form -->
           <div class="d-flex align-items-center search-form">
@@ -132,19 +133,19 @@
       </div>
     </nav>
 
-    <section class="hero-section">
+    <section class="hero-section" id="home">
       <div class="container">
         <div class="row">
           <!-- Hero Content -->
           <header class="col-md-6 content-hero">
             <span class="sub-title">Transforming Technology</span>
-            <h1 class="title">Simplify Your Business Solutions</h1>
+            <h1 class="title">Simplify Your <span>Business Solutions</span></h1>
             <p>
               Delivering cutting-edge software and seamless technology tailored
               to meet your
               goals efficiently and effectively.
             </p>
-            <a href="#" class="btn btn-primary"
+            <a href="#" class="btn btn-secondary"
               aria-label="Learn more about us">About Us</a>
           </header>
 
@@ -161,7 +162,141 @@
       </div>
     </section>
 
-    <section class="our-services">
+    <div class="our-partners">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 d-flex ">
+            <img src="img/partners/brand.png" alt="">
+          </div>
+          <div class="col-md-2 d-flex ">
+            <img src="img/partners/brand.png" alt="">
+          </div>
+          <div class="col-md-2 d-flex ">
+            <img src="img/partners/brand.png" alt="">
+          </div>
+          <div class="col-md-2 d-flex ">
+            <img src="img/partners/brand.png" alt="">
+          </div>
+          <div class="col-md-2 d-flex ">
+            <img src="img/partners/brand.png" alt="">
+          </div>
+          <div class="col-md-2 d-flex ">
+            <img src="img/partners/brand.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- What We Offer -->
+    <section class="about-us section-spacing gdr-light" id="about">            
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Image Section -->
+          <div class="col-xl-6 col-lg-5 order-lg-first text-center text-lg-start">
+            <div class="img-character">
+              <img 
+                src="img/img-character-welcome.png" 
+                alt="intimedev innovative software solutions illustration" 
+                loading="lazy" 
+                class="img-fluid rounded"
+              >
+            </div>
+          </div>
+
+          <!-- Content Section -->
+          <div class="col-xl-6 col-lg-7">
+            <!-- Heading Section -->
+            <div class="head-section">
+              <h4 class="sub-title d-flex  align-items-center gap-2">
+                <img src="img/icons/title_shape.png" alt="Decorative Icon" loading="lazy">
+                What We Offer
+              </h4>
+              <h2 class="title">
+                Build Smarter <span>Web & Mobile Solutions</span>
+              </h2>
+              <p class="description-sec">
+                At <strong>intimedev</strong>, we create high-performance, scalable software solutions tailored to your business needs, 
+                ensuring seamless integration with your processes and goals.
+              </p>
+            </div>
+            <!-- Features List -->
+            <div class="d-flex flex-column gap-4">
+              <!-- Feature 1 -->
+              <article class="icon-style-left d-flex">
+                <div class="icon">
+                  <img 
+                    src="img/icons/about-us/web-development.png" 
+                    alt="Web Development Icon" 
+                    loading="lazy"
+                  >
+                </div>                            
+                <div class="text-wrap">
+                  <h6>Web Application Development</h6>
+                  <p>
+                    Design and develop fast, secure, and scalable web applications to help your business thrive in the digital era.
+                  </p>
+                </div>                            
+              </article>
+
+              <!-- Feature 2 -->
+              <article class="icon-style-left d-flex">
+                <div class="icon">
+                  <img 
+                    src="img/icons/about-us/mobile-app.png" 
+                    alt="Mobile App Development Icon" 
+                    loading="lazy"
+                  >
+                </div>                            
+                <div class="text-wrap">
+                  <h6>Mobile App Solutions</h6>
+                  <p>
+                    Build cross-platform mobile apps with a user-centric design, ensuring seamless experiences on all devices.
+                  </p>
+                </div>
+              </article>
+
+              <!-- Feature 3 -->
+              <article class="icon-style-left d-flex">
+                <div class="icon">
+                  <img 
+                    src="img/icons/about-us/software-developer.png" 
+                    alt="Custom Software Icon" 
+                    loading="lazy"
+                  >
+                </div>                            
+                <div class="text-wrap">
+                  <h6>Custom Software Development</h6>
+                  <p>
+                    Tailor-made software solutions built to address your unique challenges and meet specific business requirements.
+                  </p>
+                </div>
+              </article>
+
+              <!-- Feature 4 -->
+              <article class="icon-style-left d-flex gap-3">
+                <div class="icon">
+                  <img 
+                    src="img/icons/about-us/api.png" 
+                    alt="API Integration Icon" 
+                    loading="lazy"
+                  >
+                </div>                            
+                <div class="text-wrap">
+                  <h6>API Integration</h6>
+                  <p>
+                    Seamlessly integrate APIs to enhance your software's capabilities and ensure smooth data communication across platforms.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>               
+      </div>
+    </section>
+
+
+
+    <section class="our-services" id="services">
       <div class="container">
         <header class="row">
           <div class="col-md-12">
@@ -289,7 +424,7 @@
     <div class="why-chosse-us">
       <div class="container">
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-7 pe-4">
             <div class="head-section">
               <h4 class="sub-title d-flex align-content-center gap-2">
                 <img src="img/icons/title_shape.png" alt="Decorative Icon"
@@ -339,46 +474,339 @@
 
     </div>
 
-
-    <footer class="custom-footer mt-5">
-      <div class="container p-4">
-        <div class="row">
-          <!-- About Section -->
-          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <h5 class="footer-title">About Us</h5>
-            <p class="footer-text">
-              InTimedev is a leading software company based in Cairo, Egypt,
-              specializing in web and mobile application
-              development. We provide cutting-edge digital solutions to help
-              your business grow.
-            </p>
+    <section class="counter-section " >
+      <div class="container">
+        <div class="row  text-white g-4">
+          <!-- Completed Projects -->
+          <div class="col-md-3">
+            <div class="counter-box">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-list-check"></i>
+              </div>
+              <div>
+                <h3 class="counter-number" data-target="986">0</h3>
+                <p>Completed Projects</p>
+              </div>
+            </div>
           </div>
-
-          <!-- Quick Links -->
-          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <h5 class="footer-title">Quick Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#" class="footer-link">Home</a></li>
-              <li><a href="#" class="footer-link">About Us</a></li>
-              <li><a href="#" class="footer-link">Services</a></li>
-              <li><a href="#" class="footer-link">Contact Us</a></li>
-            </ul>
+    
+          <!-- Happy Clients -->
+          <div class="col-md-3">
+            <div class="counter-box">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-face-smile"></i>
+              </div>
+              <div>
+                <h3 class="counter-number" data-target="896">0</h3>
+              <p>Happy Clients</p>
+              </div>
+              
+            </div>
           </div>
-
-          <!-- Contact Section -->
-          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <h5 class="footer-title">Contact Us</h5>
-            <p class="footer-text">Address: Cairo, Egypt</p>
-            <p class="footer-text">Phone: +20 123 456 7890</p>
-            <p class="footer-text">Email: info@intimedev.com</p>
+    
+          <!-- Skilled Experts -->
+          <div class="col-md-3">
+            <div class="counter-box">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-user-tie"></i>
+              </div>
+              <div>
+                <h3 class="counter-number" data-target="396">0</h3>
+              <p>Skilled Experts</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Awards & Recognitions -->
+          <div class="col-md-3">
+            <div class="counter-box">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <div>
+                <h3 class="counter-number" data-target="496">0</h3>
+              <p>Awards & Recognitions</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
+
+    <section class="process-section ">
+      <div class="container">
+        <!-- Section Title -->
+         <div class="row ">
+          <div class="col-md-12">
+            <div class="head-section text-center ">
+              <h4 class="sub-title d-flex align-content-center gap-2">
+                <img src="img/icons/title_shape.png" alt="Decorative Icon"
+                  loading="lazy">
+                  WORK PROCESS
+              </h4>
+              <h2 class="title">Our Process For Building Your
+                <span>Digital Solutions </span>
+              </h2>
+         
+             
+            </div>
+          </div>
+
+         
+         </div>
+       
+        
+    
+        <!-- Process Steps -->
+        <div class="row justify-content-center gy-4 position-relative">
+          <div class="col-md-12 process-line"><img src="./img/process_line-1.svg" alt=""></div>
+          <!-- Step 1 -->
+          <div class="col-md-3 text-center  px-4">
+            <div class="process-card ">
+              <div class="step-circle mb-3">
+                <span>01</span>
+              </div>
+              <div class="process-icon mb-3">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <h5 class="fw-bold">Define Your Project</h5>
+              <p class="text-muted mb-0">
+                Share your vision and goals with us to kickstart the process of creating a tailored digital solution.
+              </p>
+            </div>
+          </div>
+    
+          <!-- Step 2 -->
+          <div class="col-md-3 text-center  px-4">
+            <div class="process-card">
+              <div class="step-circle mb-3">
+                <span>02</span>
+              </div>
+              <div class="process-icon mb-3">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+              </div>
+              <h5 class="fw-bold">In-Depth Analysis</h5>
+              <p class="text-muted mb-0">
+                We dive into the requirements, analyze the needs, and prepare a clear roadmap for your project.
+              </p>
+            </div>
+          </div>
+    
+          <!-- Step 3 -->
+          <div class="col-md-3 text-center  px-4">
+            <div class="process-card">
+              <div class="step-circle mb-3">
+                <span>03</span>
+              </div>
+              <div class="process-icon mb-3">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h5 class="fw-bold">Plan & Develop</h5>
+              <p class="text-muted mb-0">
+                Our expert team brings your vision to life through efficient planning, design, and development.
+              </p>
+            </div>
+          </div>
+    
+          <!-- Step 4 -->
+          <div class="col-md-3 text-center px-4">
+            <div class="process-card">
+              <div class="step-circle mb-3">
+                <span>04</span>
+              </div>
+              <div class="process-icon mb-3">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <h5 class="fw-bold">Deliver & Optimize</h5>
+              <p class="text-muted mb-0">
+                We ensure timely delivery, followed by continuous support and optimization for success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+ 
+    
+    <section class="contact-section " aria-labelledby="contact-title" id="contact">
+      <div class="container">
+       
+    
+    
+       <div class="row contact-info-section align-items-center">
+        <div class="col-md-6">
+           <!-- Section Header -->
+        <div class="head-section">
+          <h4 class="sub-title d-flex align-content-center gap-2">
+            <img src="img/icons/title_shape.png" alt="Decorative Icon"
+              loading="lazy">
+              Contact With Us!
+          </h4>
+          <h2 class="title">Have Questions Or Need Assistance?
+            <span>Let’s Connect!</span>
+          </h2>
+          <p class="description-sec">
+            Our team is here to help you. Whether you have a question about our services or anything else, feel free to reach out.
+          </p>
+          
+        </div>
+           <!-- Contact Form -->
+        <form action="/submit" method="POST" class="contact-form" aria-label="Contact Form">
+          <div class="row g-4">
+            <!-- Name Field -->
+            <div class="col-md-6">
+              <label for="name" class="form-label visually-hidden">Your Name</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Enter Your Name" required>
+            </div>
+            <!-- Email Field -->
+            <div class="col-md-6">
+              <label for="email" class="form-label visually-hidden">Your Email</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Enter Your Email" required>
+            </div>
+            <!-- Subject Field -->
+            <div class="col-md-6">
+              <label for="subject" class="form-label visually-hidden">Select Subject</label>
+              <select id="subject" name="subject" class="form-select" required>
+                <option value="" disabled selected>Select Subject</option>
+                <option value="web-development">Web Development</option>
+                <option value="mobile-development">Mobile Development</option>
+                <option value="general">General Inquiry</option>
+              </select>
+            </div>
+            <!-- Phone Field -->
+            <div class="col-md-6">
+              <label for="phone" class="form-label visually-hidden">Phone Number</label>
+              <input type="tel" id="phone" name="phone" class="form-control" placeholder="Phone Number" required>
+            </div>
+            <!-- Message Field -->
+            <div class="col-12">
+              <label for="message" class="form-label visually-hidden">Write Your Message</label>
+              <textarea id="message" name="message" rows="5" class="form-control" placeholder="Write Your Message" required></textarea>
+            </div>
+            <!-- Submit Button -->
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-secondary m-0 " aria-label="Request Assistance">
+                Request Assistance
+              </button>
+            </div>
+          </div>
+        </form>
+        </div>
+        <div class="col-md-4  ps-4 ">
+          <div class="contact-card d-flex align-items-center   mb-4 mt-5">
+            <div class="icon-wrapper me-3">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <h5 class="fw-bold">Our Office Address</h5>
+              <p class="text-muted mb-0"> Nasr City, Cairo, Egypt</p>
+            </div>
+          </div>
+          <div class="contact-card d-flex align-items-center mb-4">
+            <div class="icon-wrapper me-3">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+              <h5 class="fw-bold">Call Us Anytime</h5>
+              <p class=" mb-0">(+20)-1153886625 </p>
+            </div>
+          </div>
+          <div class="contact-card d-flex align-items-center ">
+            <div class="icon-wrapper me-3">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div>
+              <h5 class="fw-bold">Send An Email</h5>
+              <p class="mb-0">info@intimedev.com </p>
+            </div>
+          </div>
+        </div>
+       
+        
+       </div>
+      </div>
+    </section>
+    
+
+    <footer class="custom-footer ">
+      <div class="container">
+        <div class="row align-items-center mb-5">
+          <!-- Logo Section -->
+          <div class="col-md-3 text-center text-md-start">
+            <div class="logo">
+              <img 
+                src="img/logo-footer.png" 
+                alt="AntimDev Company Logo" 
+                loading="lazy" 
+                class="img-fluid"
+              >
+            </div>
+          </div>
+    
+          <!-- News Subscription Section -->
+          <div class="col-md-9">
+            <div class="news-subscription d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+              <div class="text">
+                <h5>Stay Updated</h5>
+                <p>Subscribe to our newsletter for the latest updates and insights.</p>
+              </div>
+    
+              <form action="#" method="post" class="w-80 w-md-auto">
+                <div class="input-group">
+                  <input 
+                    type="email" 
+                    class="form-control" 
+                    placeholder="Enter your email address" 
+                    aria-label="Email address" 
+                    required
+                  >
+                  <button 
+                    type="submit" 
+                    class="btn btn-secondary"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-md-2"></div>
+
+          <div class="col-md-8  text-center mb-4 ">
+            <h5 class="footer-title">About Us</h5>
+            <p class="footer-text">
+              IntimeDev specializes in crafting cutting-edge web and mobile applications, tailored to meet your business needs. Our team is dedicated to delivering scalable and user-friendly solutions.
+            </p>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+    
+          <!-- Contact Section -->
+          <div class="col-md-8 mb-4 text-center">
+            <h5 class="footer-title">Contact Us</h5>
+            <div class="d-flex align-items-center justify-content-center gap-3">
+              <p class="footer-text"><strong>Address:</strong> Cairo, Egypt</p>
+              <p class="footer-text"><strong>Phone:</strong> +20 123 456 7890</p>
+              <p class="footer-text"><strong>Email:</strong> info@intimedev.com</p>
+            </div>
+  
+          </div>
+          <div class="col-md-2"></div>
+
+        </div>
+      </div>
+    
       <div class="footer-bottom text-center p-3">
-        © 2024 InTimedev. All Rights Reserved.
+        © 2024 IntimeDev. All Rights Reserved.
       </div>
     </footer>
+    
 
     <script src="js/jquery-3.7.1.min.js" type="text/javascript"></script>
     <script src="js/progressBar.min.js" type="text/javascript"></script>
