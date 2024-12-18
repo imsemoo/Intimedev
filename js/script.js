@@ -23,3 +23,9 @@ $(document).ready(function() {
       updateCounter();
     });
   });
+
+  AOS.init({
+    duration: 1200, // Animation duration in milliseconds
+    easing: 'ease-in-out', // Smooth easing for the animation
+    once: true, // Animation only happens once
+  });
